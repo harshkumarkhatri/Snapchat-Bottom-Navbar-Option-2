@@ -15,7 +15,6 @@ import 'Widgets/FriendsDetailsWidget/privateFriendships_Widget.dart';
 import 'Widgets/FriendsDetailsWidget/savedInChatItem_Widget.dart';
 import 'Widgets/FriendsDetailsWidget/snapMapItem_Widget.dart';
 import 'Widgets/FriendsDetailsWidget/snapMapText_Widget.dart';
-import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmojiText_Widget.dart';
 import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmoji_Widget1.dart';
 import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmoji_Widget2.dart';
 import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmoji_Widget3.dart';
