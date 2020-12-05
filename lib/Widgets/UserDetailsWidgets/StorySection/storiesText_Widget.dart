@@ -27,7 +27,6 @@ Widget storiesText() {
             child: Text(
               "+ Private Story",
               style: TextStyle(
-                // letterSpacing: 1.2,
                 color: Colors.grey[800],
               ),
             ),

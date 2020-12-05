@@ -4,7 +4,6 @@ Widget moreItems(text, color, isRounded) {
   return Container(
     alignment: Alignment.centerLeft,
     height: 55,
-    // color: Colors.white,
     decoration: BoxDecoration(
       color: Colors.white,
       borderRadius: isRounded

@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter/material.dart';
 import 'package:snapchat_bottom_navbar_option_2/Widgets/FriendsDetailsWidget/chatAttachments_Widget.dart';
 import 'package:swipedetector/swipedetector.dart';
-
-import 'Widgets/ChatWidgets/bottomBarChat_Widget.dart';
 import 'Widgets/FriendsDetailsWidget/BottomModelSheetWidgets/moreItemsSendUsername_Widget.dart';
 import 'Widgets/FriendsDetailsWidget/BottomModelSheetWidgets/moreItemsStoryNotification_Widget.dart';
 import 'Widgets/FriendsDetailsWidget/BottomModelSheetWidgets/moreItemsTwoText_Widget.dart';
@@ -15,16 +11,6 @@ import 'Widgets/FriendsDetailsWidget/privateFriendships_Widget.dart';
 import 'Widgets/FriendsDetailsWidget/savedInChatItem_Widget.dart';
 import 'Widgets/FriendsDetailsWidget/snapMapItem_Widget.dart';
 import 'Widgets/FriendsDetailsWidget/snapMapText_Widget.dart';
-import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmoji_Widget1.dart';
-import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmoji_Widget2.dart';
-import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmoji_Widget3.dart';
-import 'Widgets/UserDetailsWidgets/FriendSection/friendsSection_Widget.dart';
-import 'Widgets/UserDetailsWidgets/FriendSection/friendsText_WIdget.dart';
-import 'Widgets/UserDetailsWidgets/SnapMapSection/snapMapText_Widget.dart';
-import 'Widgets/UserDetailsWidgets/SnapMapSection/snapMapWidget_Map.dart';
-import 'Widgets/UserDetailsWidgets/StorySection/addTo_widget.dart';
-import 'Widgets/UserDetailsWidgets/StorySection/privateStory_Widget.dart';
-import 'Widgets/UserDetailsWidgets/StorySection/storiesText_Widget.dart';
 
 class FriendDetails extends StatefulWidget {
   @override
@@ -41,22 +27,8 @@ class _FriendDetailsState extends State<FriendDetails> {
           padding: const EdgeInsets.only(top: 25),
           child: AppBar(
             backgroundColor: Colors.white,
-            elevation: 5, automaticallyImplyLeading: false,
-            // actions: [
-            // Padding(
-            //   padding: const EdgeInsets.all(8.0),
-            //   child: Icon(
-            //     Icons.settings,
-            //     color: Colors.black,
-            //   ),
-            // ),
-            // ],
-            // leading: Icon(
-            //   Icons.keyboard_arrow_down,
-            //   color: Colors.black,
-            // ),
-
-            // TODO: Fix the appbar and extend it a bit.
+            elevation: 5,
+            automaticallyImplyLeading: false,
             title: Padding(
               padding: const EdgeInsets.all(18.0),
               child: Row(
@@ -81,7 +53,6 @@ class _FriendDetailsState extends State<FriendDetails> {
                         child: Icon(Icons.supervised_user_circle,
                             color: Colors.blue, size: 30),
                       ),
-                      // TODO: add a show bottom modal here
                       GestureDetector(
                         onTap: () {
                           showModalBottomSheet(
@@ -181,7 +152,6 @@ class _FriendDetailsState extends State<FriendDetails> {
             children: [
               Container(
                 height: MediaQuery.of(context).size.height,
-                // color: Colors.pink,
                 child: Container(
                   child: SingleChildScrollView(
                     child: Column(
@@ -192,11 +162,7 @@ class _FriendDetailsState extends State<FriendDetails> {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                                color: Colors.yellow, shape: BoxShape.circle
-                                // borderRadius: BorderRadius.circular(
-                                //   20,
-                                // ),
-                                ),
+                                color: Colors.yellow, shape: BoxShape.circle),
                           ),
                         ),
                         Padding(
@@ -288,7 +254,6 @@ class _FriendDetailsState extends State<FriendDetails> {
                             ),
                           ),
                         ),
-                        // TODO: Replace this with snapchat icon
                         Padding(
                           padding: const EdgeInsets.only(
                             top: 38.0,

@@ -19,7 +19,6 @@ Widget friendshipsPrivate(context) {
             child: Container(
               height: 50,
               width: 50,
-              // color: Colors.yellow,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
                   color: Colors.yellow),

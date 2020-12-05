@@ -36,11 +36,6 @@ Widget chatMessage(context, color, message) {
                   padding: const EdgeInsets.only(top: 4.0, bottom: 4, left: 12),
                   child: Row(
                     children: [
-                      // Container(
-                      //     width: 4,
-                      //     height: 22,
-                      //     color: Colors.red,
-                      //     child: Text(" ")),
                       Expanded(
                         child: Text(
                           message,

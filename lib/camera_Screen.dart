@@ -9,37 +9,8 @@ class CameraScreen extends StatefulWidget {
 }
 
 class CameraScreenState extends State<CameraScreen> {
-  // CameraController controller;
-
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   gettingCameras();
-  //   controller =
-  //       new CameraController(widget.cameras[0], ResolutionPreset.medium);
-  //   controller.initialize().then((_) {
-  //     if (!mounted) {
-  //       return;
-  //     }
-  //     setState(() {});
-  //   });
-  // }
-
-  // void gettingCameras() async {
-  //   widget.cameras = await availableCameras();
-  // }
-
-  // @override
-  // void dispose() {
-  //   controller?.dispose();
-  //   super.dispose();
-  // }
-
   @override
   Widget build(BuildContext context) {
-    // if (!controller.value.isInitialized) {
-    //   return new Container();
-    // }
     return Scaffold(
       body: new Stack(
         children: [
@@ -48,24 +19,6 @@ class CameraScreenState extends State<CameraScreen> {
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
           ),
-          // Container(
-          //   width: 150,
-          //   height: 150,
-          //   child: ClipRect(
-          //     child: OverflowBox(
-          //       alignment: Alignment.center,
-          //       child: FittedBox(
-          //         fit: BoxFit.fitWidth,
-          //         child: Container(
-          //           width: 130,
-          //           height: 130,
-          //           child:
-          //               // new CameraPreview(controller), // this is my CameraPreview
-          //         ),
-          //       ),
-          //     ),
-          //   ),
-          // )
           SafeArea(
             child: Container(
               child: Column(
@@ -107,7 +60,6 @@ class CameraScreenState extends State<CameraScreen> {
                         ],
                       ),
                       Container(
-                        // color: Colors.pink,
                         decoration: BoxDecoration(
                             color: Colors.white24,
                             borderRadius: BorderRadius.circular(16)),
@@ -140,7 +92,6 @@ class CameraScreenState extends State<CameraScreen> {
                           ),
                         ),
                       ),
-                      // Icon(Icons.emoji_emotions, color: Colors.white)
                     ],
                   )
                 ],

@@ -43,7 +43,6 @@ class _ChatState extends State<Chat> {
             height: 24,
             width: 24,
             decoration: BoxDecoration(
-              // color: Colors.yellow,
               shape: BoxShape.circle,
             ),
             child: Padding(
@@ -61,7 +60,6 @@ class _ChatState extends State<Chat> {
               Container(
                 height: 35,
                 width: 50,
-                // color: Colors.red,
                 decoration: BoxDecoration(
                   color: Colors.grey[350],
                   borderRadius: BorderRadius.only(
@@ -77,7 +75,6 @@ class _ChatState extends State<Chat> {
               Container(
                   height: 35,
                   width: 50,
-                  // color: Colors.pink,
                   decoration: BoxDecoration(
                     color: Colors.grey[350],
                     borderRadius: BorderRadius.only(

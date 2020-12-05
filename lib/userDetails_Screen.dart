@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:snapchat_bottom_navbar_option_2/Widgets/UserDetailsWidgets/BitmojiSection/bitmojiText_Widget.dart';
 import 'package:snapchat_bottom_navbar_option_2/setting_Screen.dart';
 import 'package:swipedetector/swipedetector.dart';
-
-import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmojiWidget_text.dart';
 import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmoji_Widget1.dart';
 import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmoji_Widget2.dart';
 import 'Widgets/UserDetailsWidgets/BitmojiSection/bitmoji_Widget3.dart';
@@ -30,22 +28,8 @@ class _userDetailsState extends State<userDetails> {
           padding: const EdgeInsets.only(top: 25),
           child: AppBar(
             backgroundColor: Colors.white,
-            elevation: 5, automaticallyImplyLeading: false,
-            // actions: [
-            // Padding(
-            //   padding: const EdgeInsets.all(8.0),
-            //   child: Icon(
-            //     Icons.settings,
-            //     color: Colors.black,
-            //   ),
-            // ),
-            // ],
-            // leading: Icon(
-            //   Icons.keyboard_arrow_down,
-            //   color: Colors.black,
-            // ),
-
-            // TODO: Fix the appbar and extend it a bit.
+            elevation: 5,
+            automaticallyImplyLeading: false,
             title: Padding(
               padding: const EdgeInsets.all(18.0),
               child: Row(
@@ -93,7 +77,6 @@ class _userDetailsState extends State<userDetails> {
         },
         child: Container(
             height: MediaQuery.of(context).size.height,
-            // color: Colors.pink,
             child: Container(
               child: SingleChildScrollView(
                 child: Column(
@@ -152,8 +135,6 @@ class _userDetailsState extends State<userDetails> {
                     bitmojiWidget3(),
                     snapMapText(),
                     snapMap_Map(context),
-
-                    // TODO: Replace this with snapchat icon
                     Padding(
                       padding: const EdgeInsets.only(
                         top: 38.0,

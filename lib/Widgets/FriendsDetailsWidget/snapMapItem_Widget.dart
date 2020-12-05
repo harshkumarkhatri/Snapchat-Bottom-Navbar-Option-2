@@ -20,7 +20,6 @@ Widget snapMapItem() {
               ),
             ),
             child: Row(
-              // mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 8.0, right: 8),

@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:snapchat_bottomnavbar_option5/Widgets/SettingsWidgets/categoryHeading_Widget.dart';
-// import 'package:snapchat_bottomnavbar_option5/Widgets/SettingsWidgets/singleItem_Widget.dart';
-// import 'package:snapchat_bottomnavbar_option5/Widgets/SettingsWidgets/twoItems_Widget.dart';
-
 import 'Widgets/SettingsWidgets/categoryHeading_Widget.dart';
 import 'Widgets/SettingsWidgets/singleItem_Widget.dart';
 import 'Widgets/SettingsWidgets/twoItems_Widget.dart';

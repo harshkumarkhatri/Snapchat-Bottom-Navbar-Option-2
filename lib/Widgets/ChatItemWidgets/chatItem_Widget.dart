@@ -23,7 +23,6 @@ Widget chatItem(context, name, activeStory, time, loaded, cameras) {
                         ? Border.all(color: Colors.blue)
                         : Border.all(color: Colors.transparent),
                     shape: BoxShape.circle,
-                    // color: Colors.grey,
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(2.0),

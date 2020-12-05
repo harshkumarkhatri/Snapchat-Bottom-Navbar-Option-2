@@ -5,7 +5,6 @@ Widget quickAdd(name, username, joinedRecently) {
     padding: const EdgeInsets.only(left: 15, right: 15),
     child: Container(
         color: Colors.white,
-        // height: 60,
         child: Padding(
           padding: const EdgeInsets.only(top: 4, bottom: 4),
           child: Row(
@@ -31,7 +30,6 @@ Widget quickAdd(name, username, joinedRecently) {
                           width: 100,
                           child: Text(
                             name,
-                            // maxLines: 2,
                             overflow: TextOverflow.ellipsis,
                             style: TextStyle(
                                 color: Colors.black,

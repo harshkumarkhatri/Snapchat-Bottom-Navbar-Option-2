@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-// import 'package:snapchat_bottomnavbar_option5/Widgets/AddFriendsWidgets/addMe_Widget.dart';
-// import 'package:snapchat_bottomnavbar_option5/Widgets/AddFriendsWidgets/quickAdd_Widget.dart';
 import 'dart:math' as math;
 
 import 'Widgets/AddFriendsWidgets/addMe_Widget.dart';
 import 'Widgets/AddFriendsWidgets/quickAdd_Widget.dart';
 
-// TODO: See if we can implement another sliver appbar to make quick add and all contacts on the top.
 class addFriends extends StatefulWidget {
   @override
   _addFriendsState createState() => _addFriendsState();
@@ -52,7 +49,6 @@ class _addFriendsState extends State<addFriends> {
                                     Container(
                                       alignment: Alignment.centerLeft,
                                       height: 55,
-                                      // color: Colors.white,
                                       decoration: BoxDecoration(
                                         color: Colors.white,
                                         borderRadius: BorderRadius.only(
@@ -185,7 +181,6 @@ class _addFriendsState extends State<addFriends> {
                     width: MediaQuery.of(context).size.width,
                     color: Colors.white,
                     alignment: Alignment.center,
-                    // height: 60,
                     child: Padding(
                       padding: const EdgeInsets.only(top: 8, bottom: 8),
                       child: Text("View 60 More",
